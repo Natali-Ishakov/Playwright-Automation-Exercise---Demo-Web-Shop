@@ -34,10 +34,15 @@ The project structure is as follows:
 
 ```
 /Playwright-Automation-Exercise
-├── tests/               # Test files
-├── playwright.config.ts # Playwright configuration
-├── package.json         # Project dependencies and scripts
-└── README.md            # Project documentation
+├── src/                        # Project source code
+│   ├── tests/                  # Automated tests (Web & API)
+│   ├── pages/                  # Page Object Model (POM) implementation
+│   ├── workFlows/              # User flows
+│   ├── utils/                  # Reusable utility functions
+├── playwright.config.ts        # Playwright configuration file
+├── package.json                # Project dependencies and scripts
+├── tsconfig.json               # TypeScript configuration file
+└── README.md                   # Project documentation
 ```
 
 ## key Features
