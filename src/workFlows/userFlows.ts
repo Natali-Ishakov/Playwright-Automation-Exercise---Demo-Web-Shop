@@ -29,7 +29,6 @@ export class UserFlows {
     this.verify = new Verifications(page);
   }
 
-  //Flow: להרשם לאתר
   async registerUser(name: string, email: string, password: string,firstName: string,
     lastName: string, address: string,country: string,state: string,city: string,
     zip: string, mobileNumber: string): Promise<void> {
