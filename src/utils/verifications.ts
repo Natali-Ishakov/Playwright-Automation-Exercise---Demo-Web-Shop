@@ -48,4 +48,9 @@ export class Verifications {
     expect(textContent).toBe(expectedText);
   }
 
+  async assertListSize(list: Locator, expectedSize: Number): Promise<void> {
+    const numberOfProducts = await list.count();
+    expect(numberOfProducts).toBe(expectedSize);
+  }
+
 }
