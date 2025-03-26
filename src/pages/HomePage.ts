@@ -11,7 +11,6 @@ export class HomePage{
     public accountMail: Locator;
     public headerLinks: Locator;
     public digitalDownloads: Locator;
-    //public headerLinksText: string[] = ['Home', 'Log in', 'Register', 'Wishlist', 'Shopping cart', 'Checkout', 'My account', 'Log out'];
     
     constructor(page: Page) {
       this.page = page;
